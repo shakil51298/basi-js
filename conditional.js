@@ -53,3 +53,22 @@ else{
 // time Date
 var day = new Date('1971-12-16');
 console.log(day);
+
+var  fund = 2000000;
+var cakri = true;
+if(cakri = true &&  fund ==200000){
+    console.log("tor biye hobe")
+}
+else if(fund<200000){
+    console.log("wait kor kisu din. r o taka joma then biye koris")
+}
+else if(fund>200000){
+    console.log("assa patri dekhtesi")
+}
+else{
+    console.log("tor biye hobe nah")
+}
+// lotary
+var rull = Math.random() * 100;
+var rull = Math.round(rull);
+console.log(rull);
